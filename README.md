@@ -1,6 +1,7 @@
 ### STRUCTURE FOLDER 
 
-Ada dua config folder yang pertama untuk provisioning node,yang kedua itu untuk provsioning k8s yang pertama terlebih dahulu
+Ada dua config folder yang pertama untuk provisioning node,yang kedua itu untuk provsioning k8s dan yang terakhir untuk cluster side  alertmanager yang pertama terlebih 
+dahulu
 
 ```
 terraform-setup/
@@ -8,8 +9,6 @@ terraform-setup/
 ├── compute.tf
 ├── main.tf
 ├── prep-vm.tf
-├── terraform.tfstate
-├── terraform.tfstate.backup
 ├── compute-cluster-2.tf
 ├── prep-2.tf
 ```
@@ -30,12 +29,14 @@ k8s/
 ├── playbook-kubernetes.yaml
 ├── playbook-pkg.yaml
 ├── playbook-swap.yaml
+├── observ.yaml
+├── observ_2.yaml
 ├── argocd.yaml
 ```
 
-dan yang ketiga untuk structure repo masing masing
+dan yang ketiga
 
 ```
-├── app-repo
-├── config-repo
+cluster-side/
+├── alsertmanager-telegram.yaml
 ```
