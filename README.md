@@ -46,8 +46,6 @@ k8s/
 ├── playbook-kubernetes.yaml
 ├── playbook-pkg.yaml
 ├── playbook-swap.yaml
-├── observ.yaml
-├── observ_2.yaml
 ├── argocd.yaml
 ```
 
@@ -57,4 +55,29 @@ dan yang ketiga
 cluster-side/
 ├── alsertmanager-telegram.yaml
 ```
+
+### Tools
+
+- **Wsl** : v0.2.1
+- **Terraform** : v1.15.8
+- **OS Laptop 1** : Windows 11 Pro
+- **OS WSL2 Subsystem** : Ubuntu 24.04 LTS
+- **OS Ubuntu VM (K8s Nodes)** : 24.04 LTS
+- **OS Ubuntu Jenkins Node (Bare Metal)** : 25.04
+- **Kubernetes** : 1.28
+- **Containerd** : 2.2.4
+- **Java** : 21
+- **Docker** : v29.1.3
+- **Ansible** : v2.16+
+- **Jenkins** : 2.56
+- **Network** : Flannel
+- **ArgoCD** : v3.5.x
+- **GitLab** : SaaS
+- **Ngrok** 
+
+### Reasoning
+
+Kenapa saya memutuskan untuk membuat pull based infrastructure?karena saya ingin sekali bereksperimen dan memiliki rasa penasaran karena ingin tahu cara kerja dari infrastructure pull 
+based yang tadinya push based,dan di sisi lain saya bosan karena terus menerus membuat push based infrastructure,yang terakhir saya ingin mengasah skill saya juga dengan menantang diri 
+saya mengenal hal baru atau teknologi baru
 
