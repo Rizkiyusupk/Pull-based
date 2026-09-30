@@ -1,0 +1,11 @@
+- name: install argocd
+  hosts: masters-cluster-2
+  become: yes
+  become_user: ubuntu
+
+  tasks:
+    - name: create namespace
+      ansible.builtin.shell: kubectl create namespace argocd
+    - name: install argo
+      ansible.builtin.shell: kubectl apply -n argocd --server-side --force-conflicts -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+ 
