@@ -52,17 +52,8 @@ k8s/
 ├── service-account.yaml
 ├── clusterrole.yaml
 ├── role-binding.yaml
-├── secret-token.yaml
-├── kubeconfig.sh
 ```
 
-
-dan yang ketiga
-
-```
-cluster-side/
-├── alsertmanager-telegram.yaml
-```
 
 ### Tools
 
