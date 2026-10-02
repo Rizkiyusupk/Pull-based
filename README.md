@@ -49,6 +49,11 @@ k8s/
 ├── playbook-install-terraform-bare-metal.yaml
 ├── playbook-config.yaml
 ├── argocd.yaml
+├── service-account.yaml
+├── clusterrole.yaml
+├── role-binding.yaml
+├── secret-token.yaml
+├── kubeconfig.sh
 ```
 
 
