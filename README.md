@@ -1,7 +1,7 @@
 jika sebelumnya saya hanya membangun infrastructure push based sekarang saya akan membangun pull based menggunakan argo cd,karena rasa penasaran saya yang selalu bergejolak dan muncul saya
 akhirnya memutuskan untuk belajar untuk membangun pull based dan memutuskan untuk menggunakan argo cd sebagai toolsnya,oke langsung saja masuk ke pembahaasanya
 
-![vusbbra](/asset/as.png)
+![vusbbra](/asset/asu.png)
 
 
 
