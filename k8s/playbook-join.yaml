@@ -6,7 +6,7 @@
       ansible.builtin.command: kubeadm config images pull
       register: pull_output
     - name: init
-      ansible.builtin.command: kubeadm init --apiserver-advertise-address=your cluster ip --pod-network-cidr=10.244.0.0/16 --node-name=k8s-master --apiserver-cert-extra-sans=127.0.0.1,ip-laptop-1
+      ansible.builtin.command: kubeadm init --apiserver-advertise-address=your master ip --pod-network-cidr=10.244.0.0/16 --node-name=k8s-master --apiserver-cert-extra-sans=127.0.0.1,ip-laptop-1
       register: kube_output
       async: 600
       poll: 30
