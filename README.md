@@ -75,3 +75,4 @@ Kenapa saya memutuskan untuk membuat pull based infrastructure?karena saya ingin
 based yang tadinya push based,dan di sisi lain saya bosan karena terus menerus membuat push based infrastructure,yang terakhir saya ingin mengasah skill saya juga dengan menantang diri 
 saya mengenal hal baru atau teknologi baru
 
+untuk full docs pembuatan ada [disini](https://rizkiyusupk.github.io/devops/clouds/linux/server/iac/infrastructure/pull-based1/)
